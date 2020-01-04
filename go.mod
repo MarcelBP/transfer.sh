@@ -22,8 +22,7 @@ require (
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-isatty v0.0.9 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.2
-	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
-	github.com/russross/blackfriday/v2 v2.0.1
+	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect1
 	github.com/skip2/go-qrcode v0.0.0-20190110000554-dc11ecdae0a9
 	github.com/stretchr/testify v1.4.0 // indirect
 	github.com/tomasen/realip v0.0.0-20180522021738-f0c99a92ddce
