@@ -94,7 +94,7 @@ var globalFlags = []cli.Flag{
 	cli.StringFlag{
 		Name:  "provider",
 		Usage: "s3|gdrive|local",
-		Value: "",
+		Value: "gdrive",
 	},
 	cli.StringFlag{
 		Name:   "s3-endpoint",
@@ -137,12 +137,12 @@ var globalFlags = []cli.Flag{
 	cli.StringFlag{
 		Name:  "gdrive-client-json-filepath",
 		Usage: "",
-		Value: "",
+		Value: "./credentials.json",
 	},
 	cli.StringFlag{
 		Name:  "gdrive-local-config-path",
 		Usage: "",
-		Value: "",
+		Value: "/tmp/",
 	},
 	cli.IntFlag{
 		Name:  "gdrive-chunk-size",
@@ -169,7 +169,7 @@ var globalFlags = []cli.Flag{
 	cli.StringFlag{
 		Name:  "basedir",
 		Usage: "path to storage",
-		Value: "",
+		Value: "/tmp/",
 	},
 	cli.StringFlag{
 		Name:   "clamav-host",
